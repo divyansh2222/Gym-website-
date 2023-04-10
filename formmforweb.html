@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        #name {
+            padding: 5px;
+
+        }
+
+        body {
+            background: url(sven-mieke-MsCgmHuirDo-unsplash.jpg);
+            background-size: 100%;
+            color: antiquewhite;
+
+        }
+        .btn1{
+            margin: auto;
+            padding: 10px;
+        }
+     
+    </style>
+</head>
+
+<body>
+    
+    <h2>This is the form for you to join the gym </h2>
+    <form action="backend.php"></form>
+    <label for="name">Enter your name:</label>
+    <div id="name">
+        <input type="text" name="myName" id="name">
+    </div id="name">
+    <br>
+    <label for="role">Enter your locality:</label>
+    <div id="name">
+        <input type="text" name="myRole" id="role">
+    </div>
+    <br>
+    <label for="email">Email</label>
+    <div id="name">
+
+        <input type="email" name="myEmail" id="email">
+    </div>
+    <br>
+
+    <div id="name">
+
+        Enter your mobile no.: +91<input type="number" name="myEmail" id="mobile">
+    </div>
+    <br>
+    <div id="name">
+        Date Of birth: <input type="date" name="myDate">
+    </div><br>
+    <div id="name">
+        You want personal trainer?<input type="checkbox" value="tick">
+    </div>
+    <br>
+    <div id="name">
+        Gym starting Date: <input type="date">
+    </div>
+    <br>
+    <div id="name">
+
+        Your current weight?<input type="number" name="myEmail" id="mobile">
+    </div>
+    <br>
+
+    <div id="name">
+        Gender : Male<input type="radio" name="myEmail"> Female<input type="radio" name="myEmail"> Other<input
+            type="radio" name="myEmail">
+    </div><br>
+    <div id="name">
+        Write any additional things you want:<textarea name="mytext" cols="30" rows="10"></textarea>
+    </div><br>
+    <div id="name">
+    You want package:<select name="mycar" name="cars">
+        <option value="indica">none</option>
+    <option value="indica">3 month</option>
+    <option value="swift">6 month</option>
+    <option value="bmw">1 year</option>
+</select>
+    </div>
+    <div class="btn1">
+        <input type="submit" value="Submit now">
+        <input type="reset" value="Reset now">
+    </div>
+    <br>
+</body>
+
+</html>
